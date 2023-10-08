@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sign up Page</title>
+<link rel="stylesheet" href="signup.css">
+</head>
+<body class="signup">
+	<div>
+        <h1 class="signup-des">Welcome to Sign Up Page</h1>
+<div class="container">
+<img src="cover/background.avif" width="100%" height="100%" alt="bg1" class="img"/>
+<form id="form1" name="form1"  method="post" action="con5.php">
+<div class="centered">
+<div class="total">
+<label for="email" required><strong class="user">Enter Email:</strong></label>
+<input type="text" name="t1" id="t1" class="user1 border1">
+<label for="textfield" required><br><br><strong class="user1 border1">Fisrt Name :</strong></label>
+<input type="text" name="t2" id="t2" class="border1">
+<label for="textfield" required><br><br><strong class="user1 border1">Last Name :</strong></label>
+<input type="text" name="t3" id="t3" class="border1">
+<p><strong required class="user">Choose Gender :</strong></p>
+<input type="radio" id="gen" name ="gen" value="Male" class="radiobt">
+<label for="radio" class="radio1">Male</label>
+<input type="radio" id="gen" name="gen" value="Female" class="radiobt">
+<label for="radio" class="radio1">Female</label>
+<p><strong required class="user">Choose Your Hobbies :</strong></p>
+<input type="checkbox" id="c1" name="c1">
+<label for="checkbox"><strong class="radio">Hockey</strong></label>
+<input type="checkbox" id="c2" name="c2">
+<label for="checkbox"><strong class="radio">Football</strong></label>
+<input type="checkbox" id="c3" name="c3">
+<label for="checkbox"><strong class="radio">Cricket</strong><br><br></label>
+<label for="select2" class="user"><strong>Select State :</strong></label>
+<select name="state" id="state" class="state border1" required>
+  <option value="null" class="border1"></option>
+	<option value="mh">Maharashtra</option>
+	<option value="tn">Tamil Nadu</option>
+	<option value="hd">Hyderabad</option>
+	<option value="ga">Goa</option>
+</select>
+	<label for="password" required><br><br>
+  <strong class="user">Create Pass:</strong></label>
+<input type="password" name="p1" id="p1" class="border1 pass1">
+&nbsp;<br>
+<br>
+<div class="sub">
+<input type="submit" class="submit" />
+<input type="Reset" value="Cancel" class="cancel"/>
+</div>
+</div>
+</div>
+</form>
+</div>
+</body>
+</html>
